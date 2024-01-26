@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "dist/index.js",
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest \"VITE_CJS_TRACE=true\""
   },
   "keywords": [],
   "author": "deddywolley",
